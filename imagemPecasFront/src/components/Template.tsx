@@ -1,5 +1,7 @@
+import React from 'react';
+
 interface TemplateProps {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
 export const Template: React.FC<TemplateProps> = (props: TemplateProps) => {
@@ -28,7 +30,7 @@ const Footer: React.FC = () =>{
     return(
         <footer className="bg-red-600 text-white py-4 mt-8">
             <div className="container mx-auto text-center">
-                Desenvolvido por Luiz Lozano
+                Desenvolvido por Sophia Keller
             </div>
         </footer>
     )
